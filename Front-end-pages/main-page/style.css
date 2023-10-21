@@ -22,14 +22,9 @@
   background-color: var(--primary);
 }
 
-.navbar-toggler{
-  color: var(--quartiary);
-  background-color: var(--secondary);
-}
-
-.navbar-toggler-icon{
-  background-color: var(--secondary);
-  color: var(--primary);
+.container-fluid{
+  background-color: red;
+  max-height: 20vh;
 }
 
 #main-background{
