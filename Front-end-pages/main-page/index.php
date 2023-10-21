@@ -21,26 +21,30 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/Front-end-pages/main-page/" style="color: var(--secondary);">TRASHOLDER</a>
+      <img src="img/Imagem do WhatsApp de 2023-10-21 à(s) 15.22.06_9306b5d4.jpg" alt="Logo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/Front-end-pages/descarte-page/" style="color: var(--secondary);">DESCARTE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: var(--secondary);">DOAÇÔES</a>
           </li>
-          <li class="nav-item dropdown">
-          </li>
+
           <li class="nav-item">
           </li>
         </ul>
+        <button type="button" class="btn btn-success"><a href="/Front-end-pages//login-page//index.php">Login e Cadastro</a></button>
       </div>
     </div>
   </nav>
+  
+  <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img src="img/Imagem do WhatsApp de 2023-10-21 à(s) 15.22.06_9306b5d4.jpg" alt="Logo">
+    </div>
+  </nav>-->
 
   <!-- MAIN BACKGROUND -->
 <div id="main-background">
@@ -50,13 +54,16 @@
 
 
 <!-- MAIN CONTENT-->
-<h1 id="how">Como funciona?</h1>
 <div id="main-content">
+  <h1 id="how">Como funciona?</h1>
   <div id="main-description">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt minus natus obcaecati laborum optio, qui voluptatem hic fuga tenetur adipisci omnis voluptate maiores architecto illum dolorum atque eaque a!
+    <span>Doação</span><br>
+    <p>Tem um sofá, uma geladeira, roupas que não usa mais ou algo que pode ser útil para alguém? Entre agora e doe para alguém que realmente precisa.</p>
+    <span>Descarte</span><br>
+    <p>Saiba os pontos de coleta de lixo especial mais próximo de você e faça uma ação voluntária e ecológica.</p>
+    
   </div>
-  <div></div>
-</div>
+  
 </div>
 </body>
 </html>

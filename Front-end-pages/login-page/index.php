@@ -21,7 +21,7 @@ if(isset($_POST['email']) && isset($_POST['senha'])){
         <div class="form-box">
             <div class="form-value">
                 <form action="index.php" method="post">
-                    <h2>Login ADM</h2>
+                    <h2>TRASHOLDER LOGIN</h2>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <input type="text" name="email" class="tira_fundo" required>
