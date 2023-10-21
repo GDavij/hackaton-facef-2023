@@ -35,7 +35,7 @@
           <li class="nav-item">
           </li>
         </ul>
-        <button type="button" class="btn btn-success"><a href="/Front-end-pages//login-page//index.php">Login e Cadastro</a></button>
+        <a href="../login-page/index.php" id="teste" class="btn btn-success">Login/Logout</a></button></a>
       </div>
     </div>
   </nav>

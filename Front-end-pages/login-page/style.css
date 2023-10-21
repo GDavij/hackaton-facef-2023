@@ -44,10 +44,11 @@ section{
   align-items: center;
 
 }
-h2{
+h2, #login_name{
   font-size: 2em;
   color: var(--secondary);
   text-align: center;
+  margin: auto;
 }
 .inputbox{
   position: relative;
