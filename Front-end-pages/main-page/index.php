@@ -40,12 +40,6 @@
     </div>
   </nav>
   
-  <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <img src="img/Imagem do WhatsApp de 2023-10-21 à(s) 15.22.06_9306b5d4.jpg" alt="Logo">
-    </div>
-  </nav>-->
-
   <!-- MAIN BACKGROUND -->
 <div id="main-background">
   <button type="button" class="btn btn-success">Descarte</button>
@@ -63,7 +57,6 @@
     <p>Saiba os pontos de coleta de lixo especial mais próximo de você e faça uma ação voluntária e ecológica.</p>
     
   </div>
-  
 </div>
 </body>
 </html>
