@@ -3,7 +3,7 @@ if(isset($_POST['email']) && isset($_POST['senha'])){
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    if($email == 'usuario' && $senha == '1234'){
+    if($email == 'usuario@gmail.com' && $senha == '1234abc!'){
         header("location: ../main-page/index.php"); 
         die();
     }
@@ -21,7 +21,8 @@ if(isset($_POST['email']) && isset($_POST['senha'])){
         <div class="form-box">
             <div class="form-value">
                 <form action="index.php" method="post">
-                    <h2>TRASHOLDER LOGIN</h2>
+                    <h2>TRASHOLDER</h2>
+                    <h3 id="login_name">LOGIN</h3>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <input type="text" name="email" class="tira_fundo" required>
