@@ -5,7 +5,7 @@
 :root {
   --primary: #ffffff;
   --secondary: #23AD3E;
-  --tertiary: #000000;
+  --quartiary: #2F753D;
   --font-tittle: 'Arimo', sans-serif;
   --font-subtittle: 'sans-serif';
   --font-size-tittle: 6vh;
@@ -20,4 +20,35 @@
   box-sizing: border-box;
   font-family: var(--font-tittle);
   background-color: var(--primary);
+}
+
+.navbar-toggler{
+  color: var(--quartiary);
+  background-color: var(--secondary);
+}
+
+.navbar-toggler-icon{
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+#main-background{
+  display: flex;
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+  url(img);
+  background-position: center;
+  background-size: cover;
+  margin: 0px 0px 20px 0px;
+  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+}
+
+#main-content{
+  display: flex;
+}
+
+#main-background > button{
+  margin: auto;
+  padding: 30px 20px;
+  flex-wrap: wrap;
 }
