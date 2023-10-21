@@ -25,3 +25,14 @@
 #logo-image{
   height: 100px;
 }
+
+
+#store-content{
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10vh;
+  max-width: 170vh;
+  margin: auto;
+  justify-content: space-around;
+}
