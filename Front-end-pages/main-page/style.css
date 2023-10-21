@@ -23,8 +23,11 @@
 }
 
 .container-fluid{
-  background-color: red;
   max-height: 20vh;
+}
+
+.container-fluid > img{
+  height: 100px;
 }
 
 #main-background{
