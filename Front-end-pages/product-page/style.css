@@ -9,7 +9,7 @@
   --font-tittle: 'Arimo', sans-serif;
   --font-subtittle: 'sans-serif';
   --font-size-tittle: 6vh;
-  --font-size-subtittle: 2.3vh;
+  --font-size-subtittle: 4vh;
 }
 
 * {
@@ -22,15 +22,36 @@
   background-color: var(--primary);
 }
 
+
 #logo-image{
   height: 100px;
 }
 
+#itens{
+  margin-left: 4vh;
+  font-size: var(--font-size-subtittle);
+  color: var(--secondary);
+}
 
 #store-content{
   background-color: red;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10vh;
+  max-width: 170vh;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.card{
+width: 18rem;
+}
+#store-content{
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 10vh;
   max-width: 170vh;
   margin: auto;
