@@ -43,6 +43,9 @@
 
 #main-content{
   display: flex;
+  flex-direction: column;
+  max-width: 170vh;
+  margin: auto;
 }
 
 #main-background > button{
