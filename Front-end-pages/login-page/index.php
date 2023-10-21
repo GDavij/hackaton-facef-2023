@@ -1,10 +1,22 @@
+<?php
+if(isset($_POST['email']) && isset($_POST['senha'])){
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+
+    if($email == 'usuario' && $senha == '1234'){
+        header("location: ../main-page/index.php"); 
+        die();
+    }
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <link rel="stylesheet" href="style.css">
   <title></title>
 </head>
-teste teste testre
 <body>
     <section>
         <div class="form-box">
