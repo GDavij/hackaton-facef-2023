@@ -3,8 +3,8 @@ if(isset($_POST['email']) && isset($_POST['senha'])){
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    if($email == 'usuario@gmail.com' && $senha == '1234abc!'){
-        header("location: ../main-page/index.php"); 
+    if($email == 'usuario@gmail.com' && $senha == '1234'){
+        header("location: ../map-page/"); 
         die();
     }
 }
@@ -33,7 +33,7 @@ if(isset($_POST['email']) && isset($_POST['senha'])){
                         <input type="password" name="senha" class="tira_fundo" required>
                         <label for="">Senha</label>
                     </div>
-                    <button type="submit" name="envia_form">Entrar</button>
+                    <a href="../map-page"><button type="submit" name="envia_form">Entrar</button></a>
                 </form>
             </div>
         </div>
