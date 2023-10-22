@@ -64,9 +64,12 @@
 
 <div id="modal">
   <div id="background-modal">
-    <h1 id="modal-h1" style="font-size: 20px;" >Preencha as informações:</h1>
+    <h1 id="modal-h1" style="font-size: 2.3vh;">Preencha as informações:</h1>
+    
+    
+    
     <div class="form-floating mb-3">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <input type="text" class="form-control" placeholder="name@example.com" id="" >
     <label for="floatingInput">Informe seu CEP</label>
     </div>
     <select class="form-select" aria-label="Default select example">
