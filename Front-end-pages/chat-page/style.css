@@ -10,7 +10,7 @@
   --font-tittle: 'Arimo', sans-serif;
   --font-subtittle: 'sans-serif';
   --font-size-tittle: 6vh;
-  --font-size-subtittle: 2.3vh;
+  --font-size-subtittle: 4vh;
 }
 
 * {
@@ -23,15 +23,41 @@
   background-color: var(--primary);
 }
 
+#donator-information{
+  width: 80vh;
+  margin: auto;
+  margin-bottom: none;
+  display: flex;
+  flex-direction: column;
+}
+
+#donator-name{
+  padding: 10px;
+  font-size: var(--font-size-subtittle);
+}
+
+#donator-status{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#donator-name, #donator-status{
+  background-color: var(--quartiary);
+  color: white;
+  margin: 0px;
+}
+
 #chat{
   width: 80vh;
-  height: 98vh;
+  height: 86vh;
   background-color: var(--secondary);
   margin: auto;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   margin-bottom: 30px;
+  flex-direction: column;
+  gap: 2%;
 }
 
 #chat-box{
@@ -58,4 +84,16 @@
 
 #send-buttom:hover{
   background-color: var(--secondary);
+}
+
+.mensagem{
+  width: 100%;
+  height: 10%;
+  background-color: #23AD3E;
+}
+
+.corpo_msg{
+  width: 50%;
+  padding:10px;
+  height: 15px;
 }
