@@ -61,7 +61,7 @@
     </div>
   </div>
   <div id="reciclagem">
-    <img src="./img/simbolo-de-reciclagem-768x750.png" alt="reciclagem" style = >
+    <img src="./img/simbolo-de-reciclagem-768x750.png" alt="reciclagem" style="height: 200px" >
   </div>
 
 <div id="modal" style="display: flex; flex-direction: column;">
@@ -75,18 +75,18 @@
 </div>
 
 <form method="post" action="../descarte-page/index.php" >
-<div>
-    <div id="background-modal">
-      <select name='tipo_coleta'>
-        <option value="" disabled selected>Selecione</option>
-        <option value="1">Tijolos</option>
-        <option value="2">Galhos</option>
-        <option value="3">Sofá</option>
-        <option value="4">Papelão</option>
-      </select>
-      <input type="submit" class="btn btn-success" id="button" value="Buscar">
-    </div>
-</div>
+  <div>
+      <div id="background-modal">
+        <select name='tipo_coleta'>
+          <option value="" disabled selected>Selecione</option>
+          <option value="1">Tijolos</option>
+          <option value="2">Galhos</option>
+          <option value="3">Sofá</option>
+          <option value="4">Papelão</option>
+        </select>
+        <input type="submit" class="btn btn-success" id="button" value="Buscar">
+      </div>
+  </div>
 </form>
 
 </div>
