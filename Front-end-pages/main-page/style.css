@@ -40,14 +40,14 @@
   background-position: center;
   background-size: cover;
   max-height: 10px;
-  background-color: red;
 }
 
 
 #main-background > button{
   margin: auto;
-  padding: 30px 20px;
+  padding: 3px 2px;
   flex-wrap: wrap;
+  width: auto;
 }
 .inputbox ion-icon{
   position: absolute;
@@ -73,4 +73,24 @@ button{
 .tira_fundo{
   -webkit-box-shadow: 0 0 0px 1000px var(--primary) inset;
   -webkit-text-fill-color: var(--secondary);
+}
+
+#modal{
+  z-index: 20;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.modal-fundo{
+  display: block;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
 }
