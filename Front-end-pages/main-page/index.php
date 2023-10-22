@@ -63,7 +63,19 @@
 </div>
 
 <div id="modal">
-  <h1>Teste de modal</h1>
+  <div id="background-modal">
+    <h1 id="modal-h1" style="font-size: 20px;" >Preencha as informações:</h1>
+    <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Informe seu CEP</label>
+    </div>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Tipo de Lixo</option>
+      <option value="1"></option>
+      <option value="2"></option>
+      <option value="3"></option>
+    </select>
+  </div>
 </div>
 
 <script>
