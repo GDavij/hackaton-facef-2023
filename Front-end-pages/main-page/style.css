@@ -29,6 +29,7 @@
 .container-fluid > img{
   height: 100px;
 }
+
 #main-background{
   display: flex;
   justify-content: center;
@@ -39,7 +40,6 @@
   background-position: center;
   background-size: cover;
   max-height: 10px;
-  background-color: red;
 }
 
 
