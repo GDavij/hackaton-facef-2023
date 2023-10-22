@@ -72,22 +72,14 @@
 </div>
 </div>
 
-<form method="POST" action="../descarte-page/index.php" >
+<form method="post" action="../descarte-page/index.php" >
 <div>
     <div id="background-modal">
-      <select aria-label="Default select example">
+      <select name='tipo_coleta'>
         <option value="" disabled selected>Selecione</option>
         <option value="1">Tijolos</option>
-        <option value="1">Concretos</option>
-        <option value="1">Gesso</option>
         <option value="2">Galhos</option>
-        <option value="2">Poda</option>
-        <option value="2">Grama</option>
         <option value="3">Sofá</option>
-        <option value="3">Colchão</option>
-        <option value="3">Guarda-roupa</option>
-        <option value="4">Vidro</option>
-        <option value="4">Papel</option>
         <option value="4">Papelão</option>
       </select>
       <input type="submit" class="btn btn-success" id="button" value="Buscar">

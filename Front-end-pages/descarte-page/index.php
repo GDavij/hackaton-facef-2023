@@ -1,3 +1,11 @@
+
+
+<?php
+$id = $_POST["tipo_coleta"];
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,19 +51,70 @@
   </nav>
       <div class="flex flex-column  p-2">
             <h3 class="mb-4 shadow p-4">Localidades</h3>
+          <?php if($id == 1){ ?>
           <div class="flex flex-column">
               <div class="col-12  gap-2  bg-light-subtle shadow p-4 mb-4   justify-content-start align-items-start flex-shrink-1  flex-grow-0 ">
                   <span class=" ">  
                       <div class="flex-row col-12 flex-grow-0  flex-shrink-1  ">
-                          <span class="text-white  bg-success  px-2 py-1 rounded-4 ">2°</span>
-                          <span class="border-bottom  border-success ">Endereço 2</span>
+                          <span class="text-white  bg-success  px-2 py-1 rounded-4 ">1°</span>
+                          <span class="border-bottom  border-success ">Endereço 1</span>
                         </div>
                         <div class="text-secondary">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor inventore mollitia, voluptates suscipit facere numquam dolorem delectus totam, magni illum fugit ratione facilis adipisci molestiae pariatur aperiam. Ipsa, beatae sit?
+                          <p>ECOPONTO DO CITY PETRÓPOLIS</p>
+                        <p>Avenida São Pedro, nº 1200, City Petrópolis, CEP 14.409-593, Franca/SP</p>
+                        <p>Segunda a Sábado das 07h às 19h e Domingo das 08h às 14h</p>
                     </div>
                 </span>
               </div>
           </div>
+          <?php } if($id == 2){ ?>
+          <div class="flex flex-column">
+              <div class="col-12  gap-2  bg-light-subtle shadow p-4 mb-4   justify-content-start align-items-start flex-shrink-1  flex-grow-0 ">
+                  <span class=" ">  
+                      <div class="flex-row col-12 flex-grow-0  flex-shrink-1  ">
+                          <span class="text-white  bg-success  px-2 py-1 rounded-4 ">1°</span>
+                          <span class="border-bottom  border-success ">Ponto 1</span>
+                        </div>
+                        <div class="text-secondary">
+                          <p>ATERRO DE GALHOS</p>
+                        <p>Av. Sidney Romeu de Andrade</p>
+                        <p>O resíduo deverá ser levado pelo munícipe para o Aterro de Galhos</p>
+                        <p>Segunda a sexta-feira das 8h às 16h30</p>
+                    </div>
+                </span>
+              </div>
+          </div>
+          <?php } if($id == 3){ ?>
+          <div class="flex flex-column">
+              <div class="col-12  gap-2  bg-light-subtle shadow p-4 mb-4   justify-content-start align-items-start flex-shrink-1  flex-grow-0 ">
+                  <span class=" ">  
+                      <div class="flex-row col-12 flex-grow-0  flex-shrink-1  ">
+                          <span class="text-white  bg-success  px-2 py-1 rounded-4 ">1°</span>
+                          <span class="border-bottom  border-success ">Endereço 1</span>
+                        </div>
+                        <div class="text-secondary">
+                        <p>ECOPONTO DO CITY PETRÓPOLIS</p>
+                        <p>Avenida São Pedro, nº 1200, City Petrópolis, CEP 14.409-593, Franca/SP</p>
+                    </div>
+                </span>
+              </div>
+          </div>
+          <?php } if($id == 4){ ?>
+          <div class="flex flex-column">
+              <div class="col-12  gap-2  bg-light-subtle shadow p-4 mb-4   justify-content-start align-items-start flex-shrink-1  flex-grow-0 ">
+                  <span class=" ">  
+                      <div class="flex-row col-12 flex-grow-0  flex-shrink-1  ">
+                          <span class="text-white  bg-success  px-2 py-1 rounded-4 ">1°</span>
+                          <span class="border-bottom  border-success ">Endereço 1</span>
+                        </div>
+                        <div class="text-secondary">
+                        <p>AGENDAMENTO</p>
+                        <p>O munícipe deverá agendar a coleta ligando na Secretaria Municipal de Meio Ambiente</p>
+                    </div>
+                </span>
+              </div>
+          </div>
+          <?php } ?>
         </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
