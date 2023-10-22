@@ -64,7 +64,7 @@
     <img src="./img/simbolo-de-reciclagem-768x750.png" alt="reciclagem" style="height: 200px" >
   </div>
 
-<div id="modal" style="display: flex; flex-direction: column;">
+<div id="modal" style="flex-direction: column;">
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
   <div>
   <h1 id="modal-h1" style="font-size: 2.3vh;" style="padding: 15px;">Preencha as informações:</h1>

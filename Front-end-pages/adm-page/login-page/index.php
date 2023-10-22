@@ -4,7 +4,7 @@ if(isset($_POST['email']) && isset($_POST['senha'])){
     $senha = $_POST['senha'];
 
     if($email == 'usuario@gmail.com' && $senha == '1234'){
-        header("location: ../map-page/"); 
+        header("location: ../map-page/index.php"); 
         die();
     }
 }
