@@ -67,7 +67,7 @@
 <div id="modal" style="display: flex; flex-direction: column;">
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
   <div>
-  <h1 id="modal-h1" style="font-size: 2.3vh;">Preencha as informações:</h1>
+  <h1 id="modal-h1" style="font-size: 2.3vh;" style="padding: 15px;">Preencha as informações:</h1>
   </div>
   <div>
   <button id= "fecha" onclick="fecha_modal()" style="width: 50px;">x</button>
