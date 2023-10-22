@@ -43,24 +43,26 @@
   </nav>
   
   <!-- MAIN BACKGROUND -->
-<div id="main-background">
-  <a href="#"><button type="button" class="btn btn-success" onclick="abre_modal()">Descarte</button></a>
-  <a href="../product-page/index.html"><button type="button" class="btn btn-success">Doação</button></a>
-</div>
 
 
-<!-- MAIN CONTENT-->
-<div id="main-content">
-  <h1 id="how">Como funciona?</h1>
-  <div id="main-description">
-    <span>Doação</span><br>
-    <p>Tem um sofá, uma geladeira, roupas que não usa mais ou algo que pode ser útil para alguém? Entre agora e doe para alguém que realmente precisa.</p>
-    <span>Descarte</span><br>
-    <p>Saiba os pontos de coleta de lixo especial mais próximo de você e faça uma ação voluntária e ecológica.</p>
-    
+  <div id="background">
+    <div id="main-content">
+        <div id="main-description">
+        <h1 id="how">Como funciona?</h1>
+          <span>Doação</span><br>
+          <p>Tem um sofá, uma geladeira, roupas que não usa mais ou algo que pode ser útil para alguém? Entre agora e doe para alguém que realmente precisa.</p>
+          <span>Descarte</span><br>
+          <p>Saiba os pontos de coleta de lixo especial mais próximo de você e faça uma ação voluntária e ecológica.</p>
+        </div>
+      </div>
+    <div id="main-background2">
+    <a href="#"><button type="button" class="btn btn-success" onclick="abre_modal()">Descarte</button></a>
+    <a href="../product-page/index.html"><button type="button" class="btn btn-success">Doação</button></a>
+    </div>
   </div>
-</div>
-</div>
+  <div id="reciclagem">
+    <img src="./img/simbolo-de-reciclagem-768x750.png" alt="reciclagem" style = >
+  </div>
 
 <div id="modal">
 <h1 id="modal-h1" style="font-size: 2.3vh;">Preencha as informações:</h1>

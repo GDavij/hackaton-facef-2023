@@ -34,17 +34,27 @@ body{
   height: 100px;
 }
 
-#main-background{
+#background{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background: url(img/sustentabilidade-empresarial.jpg)no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
+  flex-direction: row;
+  max-width: 160vh;
+  margin: auto;
 }
 
+#main-background2{
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+  gap: 20px;
+}
+
+
+/*display: flex;
+justify-content: center;
+align-items: center;
+background: url(img/sustentabilidade-empresarial.jpg)no-repeat;
+background-position: center;
+background-size: cover;*/
 
 #main-background > button{
   margin: auto;
@@ -64,6 +74,8 @@ body{
 #main-description{
   max-width: 150vh;
   margin: auto;
+  background: none;
+  padding: 50px;
 }
 
 .inputbox ion-icon{
@@ -87,6 +99,11 @@ button{
   font-weight: 600;
 }
 
+#reciclagem{
+  margin: auto;
+
+}
+
 .tira_fundo{
   -webkit-box-shadow: 0 0 0px 1000px var(--primary) inset;
   -webkit-text-fill-color: var(--secondary);
@@ -99,7 +116,7 @@ button{
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
-}
+} 
 
 #background-modal{
   width: 50vh;
