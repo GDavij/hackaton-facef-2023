@@ -22,7 +22,9 @@
   background-color: var(--primary);
 }
 
-
+body{
+  height: 200vh;
+}
 
 .container-fluid{
   max-height: 20vh;

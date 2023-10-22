@@ -44,8 +44,8 @@
   
   <!-- MAIN BACKGROUND -->
 <div id="main-background">
-  <button type="button" class="btn btn-success" onclick="abre_modal()">Descarte</button>
-  <button type="button" class="btn btn-success">Doação</button>
+  <a href="#"><button type="button" class="btn btn-success" onclick="abre_modal()">Descarte</button></a>
+  <a href="../product-page/index.html"><button type="button" class="btn btn-success">Doação</button></a>
 </div>
 
 
