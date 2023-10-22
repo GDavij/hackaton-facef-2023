@@ -63,21 +63,19 @@
 </div>
 
 <div id="modal">
+<h1 id="modal-h1" style="font-size: 2.3vh;">Preencha as informações:</h1>
   <div id="background-modal">
-    <h1 id="modal-h1" style="font-size: 2.3vh;">Preencha as informações:</h1>
-    
-    
-    
-    <div class="form-floating mb-3">
-    <input type="text" class="form-control" placeholder="name@example.com" id="" >
-    <label for="floatingInput">Informe seu CEP</label>
+    <div id="cep-input">
+      <input type="text" placeholder="Infome seu CEP">
+      <label for=""></label>
     </div>
-    <select class="form-select" aria-label="Default select example">
+    <select aria-label="Default select example">
       <option selected>Tipo de Lixo</option>
       <option value="1"></option>
       <option value="2"></option>
       <option value="3"></option>
     </select>
+    <button type="button" class="btn btn-success">Buscar</button>
   </div>
 </div>
 

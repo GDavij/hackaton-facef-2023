@@ -85,8 +85,10 @@ button{
 }
 
 #background-modal{
-  background-color: red;
   width: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 #modal-h1{
@@ -94,6 +96,15 @@ button{
   font-size: var(--font-subtittle);
   margin: auto;
   padding: 15px;
+}
+
+#cep-input{
+  width: 49%;
+  margin: 5px;
+}
+
+.form-select{
+  width: 49%;
 }
 
 
