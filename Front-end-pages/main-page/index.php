@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <title>MAIN PAGE</title>
   <style>
-    :root {
+    :root 
+  {
     --primary: #ffffff;
     --secondary: #23AD3E;
     --tertiary: #000000;
@@ -15,10 +16,11 @@
     --font-subtittle: 'sans-serif';
     --font-size-tittle: 6vh;
     --font-size-subtittle: 2.3vh;
-}
+  }
   </style>
 </head>
 <body>
+<div id="back-drop">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <img src="img/Imagem do WhatsApp de 2023-10-21 à(s) 15.22.06_9306b5d4.jpg" alt="Logo">
@@ -48,7 +50,7 @@
 
   <!-- MAIN BACKGROUND -->
 <div id="main-background">
-  <button type="button" class="btn btn-success">Descarte</button>
+  <button type="button" class="btn btn-success" onclick="abre_modal()">Descarte</button>
   <button type="button" class="btn btn-success">Doação</button>
 </div>
 
@@ -65,6 +67,25 @@
   </div>
   
 </div>
+</div>
+
+<div id="modal">
+  <h1>Teste de modal</h1>
+</div>
+
+<script>
+  function abre_modal(){
+    let modal = document.getElementById('modal');
+    let backdrop = document.getElementById('back-drop');
+
+    modal.style.display = 'block';
+    backdrop.classList.add('modal-fundo');
+  }
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
