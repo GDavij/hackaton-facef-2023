@@ -62,30 +62,50 @@
 </div>
 </div>
 
-<div id="modal">
-<h1 id="modal-h1" style="font-size: 2.3vh;">Preencha as informações:</h1>
-  <div id="background-modal">
-    <div id="cep-input">
-      <input type="text" placeholder="Infome seu CEP">
-      <label for=""></label>
-    </div>
-    <select aria-label="Default select example">
-      <option selected>Tipo de Lixo</option>
-      <option value="1"></option>
-      <option value="2"></option>
-      <option value="3"></option>
-    </select>
-    <button type="button" class="btn btn-success">Buscar</button>
+<div id="modal" style="display: flex; flex-direction: column;">
+<div style="display: flex; flex-direction: row; justify-content: space-between;">
+  <div>
+  <h1 id="modal-h1" style="font-size: 2.3vh;">Preencha as informações:</h1>
   </div>
+  <div>
+  <button id= "fecha" onclick="fecha_modal()" style="width: 50px;">x</button>
+</div>
+</div>
+
+<form method="POST" action="../descarte-page/index.php" >
+<div>
+    <div id="background-modal">
+      <select aria-label="Default select example">
+        <option value="" disabled selected>Selecione</option>
+        <option value="1">Tijolos</option>
+        <option value="1">Concretos</option>
+        <option value="1">Gesso</option>
+        <option value="2">Galhos</option>
+        <option value="2">Poda</option>
+        <option value="2">Grama</option>
+        <option value="3">Sofá</option>
+        <option value="3">Colchão</option>
+        <option value="3">Guarda-roupa</option>
+        <option value="4">Vidro</option>
+        <option value="4">Papel</option>
+        <option value="4">Papelão</option>
+      </select>
+      <input type="submit" class="btn btn-success" id="button" value="Buscar">
+    </div>
+</div>
+</form>
+
 </div>
 
 <script>
   function abre_modal(){
     let modal = document.getElementById('modal');
-    let backdrop = document.getElementById('back-drop');
-
     modal.style.display = 'block';
-    backdrop.classList.add('modal-fundo');
+  }
+
+  function fecha_modal(){
+    let modal = document.getElementById('modal');
+    modal.style.display = 'none'
   }
 
 </script>

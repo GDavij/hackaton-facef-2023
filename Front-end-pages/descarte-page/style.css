@@ -9,7 +9,7 @@
   --font-tittle: 'Arimo', sans-serif;
   --font-subtittle: 'sans-serif';
   --font-size-tittle: 6vh;
-  --font-size-subtittle: 2.3vh;
+  --font-size-subtittle: 3vh;
 }
 
 * {
@@ -20,6 +20,18 @@
   box-sizing: border-box;
   font-family: var(--font-tittle);
   background-color: var(--primary);
+}
+
+.container-fluid{
+  max-height: 20vh;
+}
+
+.container-fluid > img{
+  height: 100px;
+}
+
+#logo_foto{
+  height: 20px;
 }
 
 section{
