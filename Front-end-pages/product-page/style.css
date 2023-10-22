@@ -6,6 +6,7 @@
   --primary: #ffffff;
   --secondary: #23AD3E;
   --tertiary: #000000;
+  --quartiary: #317a40;
   --font-tittle: 'Arimo', sans-serif;
   --font-subtittle: 'sans-serif';
   --font-size-tittle: 6vh;
@@ -28,32 +29,37 @@
 }
 
 #itens{
-  margin-left: 4vh;
+  margin-left: 4.5vh;
   font-size: var(--font-size-subtittle);
   color: var(--secondary);
-}
-
-#store-content{
-  background-color: red;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 10vh;
-  max-width: 170vh;
-  margin: auto;
-  justify-content: space-around;
 }
 
 .card{
 width: 18rem;
 }
+
+#img{
+  max-height: 250px;
+  object-fit: cover;
+}
+
 #store-content{
-  background-color: red;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 10vh;
+  gap: 5vh;
   max-width: 170vh;
   margin: auto;
   justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+#btn-donation{
+  background-color: var(--secondary);
+  border: none;
+}
+
+#btn-donation:hover{
+  background-color: var(--quartiary);
 }
