@@ -9,7 +9,7 @@
   --font-tittle: 'Arimo', sans-serif;
   --font-subtittle: 'sans-serif';
   --font-size-tittle: 6vh;
-  --font-size-subtittle: 2.3vh;
+  --font-size-subtittle: 3vh;
 }
 
 * {
@@ -21,6 +21,8 @@
   font-family: var(--font-tittle);
   background-color: var(--primary);
 }
+
+
 
 .container-fluid{
   max-height: 20vh;
@@ -34,21 +36,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   width: 100%;
-  background: url(../product-page/img/)no-repeat;
+  background: url(img/sustentabilidade-empresarial.jpg)no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 10px;
+  height: 50vh;
 }
 
 
 #main-background > button{
   margin: auto;
-  padding: 3px 2px;
+  padding: 3px 5px;
   flex-wrap: wrap;
   width: auto;
+  font-size: 20px;
 }
+
+#how{
+  font-size: 3.2vh;
+  margin-left: 100px;
+
+
+}
+
+#main-description{
+  max-width: 150vh;
+  margin: auto;
+}
+
 .inputbox ion-icon{
   position: absolute;
   right: 8px;
@@ -106,8 +121,6 @@ button{
 .form-select{
   width: 49%;
 }
-
-
 
 .modal-fundo{
   display: block;
