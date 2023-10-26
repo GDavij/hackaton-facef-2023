@@ -64,10 +64,10 @@
     <img src="./img/simbolo-de-reciclagem-768x750.png" alt="reciclagem" style="height: 200px" >
   </div>
 
-<div id="modal" style="flex-direction: column;">
+<div id="modal" style="flex-direction: column; border: 2px solid black; padding: 15px;">
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
   <div>
-  <h1 id="modal-h1" style="font-size: 2.3vh;" style="padding: 15px;">Preencha as informações:</h1>
+  <h1 id="modal-h1" style="font-size: 3vh;" style="padding: 15px;">O que você está descartando?</h1>
   </div>
   <div>
   <button id= "fecha" onclick="fecha_modal()" style="width: 50px;">x</button>
@@ -76,15 +76,19 @@
 
 <form method="post" action="../descarte-page/index.php" >
   <div>
-      <div id="background-modal">
-        <select name='tipo_coleta'>
-          <option value="" disabled selected>Selecione</option>
-          <option value="1">Tijolos</option>
-          <option value="2">Galhos</option>
-          <option value="3">Sofá</option>
-          <option value="4">Papelão</option>
-        </select>
-        <input type="submit" class="btn btn-success" id="button" value="Buscar">
+      <div id="background-modal" style="display: flex; flex-direction: collumn;">
+        <div>
+          <select name='tipo_coleta' style="width: 100%">
+            <option value="" disabled selected>Selecione</option>
+            <option value="1">Tijolos</option>
+            <option value="2">Galhos</option>
+            <option value="3">Sofá</option>
+            <option value="4">Papelão</option>
+            <option value="5">Pilhas</option>
+            <option value="6">Vidro</option>
+          </select>
+        </div>
+        <div><input type="submit" class="btn btn-success" id="button" value="Buscar"></div>
       </div>
   </div>
 </form>
